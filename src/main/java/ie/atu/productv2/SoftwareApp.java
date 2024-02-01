@@ -13,7 +13,7 @@ public class SoftwareApp {
         Scanner sc = new Scanner(System.in);
         String choice = "y";
         while (choice.equalsIgnoreCase("y")) {
-            System.out.print("Enter Software code: ");
+            System.out.print("Enter Product code: ");
             String softwareCode = sc.nextLine();  // read the Software code
 
             // get the Software object

@@ -15,7 +15,7 @@ public class BookApp {
         Scanner sc = new Scanner(System.in);
         String choice = "y";
         while (choice.equalsIgnoreCase("y")) {
-            System.out.print("Enter book code: ");
+            System.out.print("Enter product code: ");
             String bookCode = sc.nextLine();  // read the book code
 
             Book yourBook = BookDB.getBook(bookCode);
